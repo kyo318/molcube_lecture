@@ -1,0 +1,13 @@
+#include "2016H66.ff/forcefield.itp"
+#include "PMA.itp"
+#include "PMMA.itp"
+#include "PMA_co_PMMA.itp"
+[ system ]
+; name
+Melt of PMA, PMMA, PMMA-co-PMA
+
+[ molecules ]
+; name  number
+PMA 20
+PMMA 20
+PMA_co_PMMA 10

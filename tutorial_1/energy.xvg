@@ -1,0 +1,35 @@
+# This file was created Fri Mar 22 15:04:14 2024
+# Created by:
+#                      :-) GROMACS - gmx energy, 2021.4 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /Users/kyo/PJT/MolCube_tutorial/polyply_practice/tutorial_1
+# Command line:
+#   gmx energy -f eq.edr
+# gmx energy is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Box-X"
+    0.000000    8.904410
+    1.000000    9.133636
+    2.000000    9.225751
+    3.000000    9.268859
+    4.000000    9.285641
+    5.000000    9.290660
+    6.000000    9.290605
+    7.000000    9.285345
+    8.000000    9.277861
+    9.000000    9.267605
+   10.000000    9.257855
